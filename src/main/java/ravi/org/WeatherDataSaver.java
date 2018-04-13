@@ -48,8 +48,6 @@ public class WeatherDataSaver {
 		    System.out.println("Data is Being Saved...");
 	        service.saveData(temp, d1);
 	            
-	            
-	        
 		    return temp;
 		    
 		    
