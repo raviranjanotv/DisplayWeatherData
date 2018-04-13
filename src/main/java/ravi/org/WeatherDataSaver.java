@@ -45,34 +45,8 @@ public class WeatherDataSaver {
 		    
 		    Date d1= new Date();
 		    
-		    
-		    
-		   /* JSONParser parser = new JSONParser();
-		    Double temp = null;
-		    Date d1= new Date();
-	        //BasicDBObject timeNow = new BasicDBObject("date", d1);
-		    try {
-	            Object obj = parser.parse(data);
-	            JSONObject jo = (JSONObject) obj;
-	            Map<?, ?> mp = ((Map<?, ?>)jo.get("main"));
-	            Iterator<?> itr1 = mp.entrySet().iterator();
-	            while (itr1.hasNext()) 
-	            {
-	                @SuppressWarnings("rawtypes")
-					Map.Entry pair = (Entry) itr1.next();
-	                if(pair.getKey().equals("temp")){
-	                temp=(Double) pair.getValue();
-	                	}
-	              }
-	           // service.saveData(temp, d1);
-	           // System.out.println("Data is Being Saved...");
-	           
-	        } catch (Exception e) {
-	            e.printStackTrace();
-	            */
-	            
-		        System.out.println("Data is Being Saved...");
-	            service.saveData(temp, d1);
+		    System.out.println("Data is Being Saved...");
+	        service.saveData(temp, d1);
 	            
 	            
 	        
